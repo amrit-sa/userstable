@@ -9,6 +9,7 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
+      <h1>Users Table</h1>
        <GlobleState>
         <Routes>
           <Route path="/" element={<Navigate to="/users" />} />
